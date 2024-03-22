@@ -1,0 +1,17 @@
+{
+  "name": "chatbot-sample-middleware",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/jsonstream": "^0.8.33",
+    "axios": "^1.6.5",
+    "chatbot-sample-domain": "../domain",
+    "jsonstream": "^1.0.3"
+  }
+}

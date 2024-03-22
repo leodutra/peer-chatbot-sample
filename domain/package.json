@@ -1,0 +1,8 @@
+{
+  "name": "chatbot-sample-domain",
+  "type": "module",
+
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

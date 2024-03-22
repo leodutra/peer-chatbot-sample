@@ -1,0 +1,17 @@
+{
+  "name": "chatbot-sample-backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun ."
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chatbot-sample-domain": "../domain"
+  }
+}
